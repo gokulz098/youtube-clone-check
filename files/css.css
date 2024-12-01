@@ -1,0 +1,134 @@
+
+body{
+	padding-top: 100px;
+	background-color: grey;
+}
+
+a{
+	font-family: arial;
+	text-decoration: none;
+}
+
+p{
+
+font-family: arial;
+
+}
+
+.top{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	
+}
+
+.search{
+	width: 100%;
+	
+}
+
+.search::placeholder{
+	width: 30px;
+	font-family: arial; 
+}
+
+.1{
+
+flex: 1;
+}
+.2{
+	flex: 2;
+}
+
+.3{
+	flex: 1;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: green;
+}
+
+.button{
+	height: 50px;
+	margin: 20px
+	width: 100px;
+}
+
+.ani{
+	display: flex;
+	justify-content: center;
+
+}
+
+.welcome{
+	width: 500px;
+	background-color: blue;
+	border: 3px;
+	font-size: 30px;
+	height: 100px;
+	border-radius: 100px;
+	animation-name: hov;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+	@keyframes hov{
+	
+		0%{
+		
+		}
+		
+		30%{
+		background-color: green;
+		}
+		
+		50%{
+		background-color: lightpink;
+		color: lightblue;
+		transform: rotateX(360deg);
+		}
+		
+		70%{
+		background-color: black;
+		color: white;
+		}
+		
+		100%{
+			background-color: lightblue;
+			color: lightpink;
+		}
+	
+}
+
+.text{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.menu{
+width: 100%;
+}
+
+.pic{
+width: 300px;
+}
+
+.alb{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	row-gap: 50px;
+	columns-gap: 30px;
+ 
+}
+
+
+
+
+
+
+
+
